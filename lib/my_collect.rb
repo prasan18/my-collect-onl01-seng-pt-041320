@@ -8,7 +8,7 @@ def my_collect(array)
    
     
   array== languages + students << yield(array[i])
-  
+    i += 1 
      my_collect(students) do |students|
             students.split(" ").first
           end
