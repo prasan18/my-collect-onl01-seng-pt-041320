@@ -7,7 +7,8 @@ def my_collect(array)
     while i < array.length 
    
     
-  array== languages + students << yield(array[i])    
+  array== languages + students << yield(array[i])
+  
      my_collect(students) do |students|
             students.split(" ").first
           end
@@ -16,7 +17,7 @@ def my_collect(array)
           end 
        i += 1 
           end
-  languages.upcase
+  languages
 end
  
  
