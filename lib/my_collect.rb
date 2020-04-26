@@ -16,7 +16,7 @@ def my_collect(array)
           end 
        i += 1 
           end
-    array
+  languages
 end
  
  
