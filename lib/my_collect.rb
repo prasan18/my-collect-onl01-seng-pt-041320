@@ -15,7 +15,7 @@ def my_collect(array)
           my_collect(languages) do |languages|
             languages.upcase
           end 
-       i += 1 
+     
           end
   languages
 end
